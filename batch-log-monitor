@@ -1,0 +1,15 @@
+This application will be desinged for supprot team to make it easy to monitor the logs and engage the concerned team in case of any issues.
+
+Current process:
+Batch jobs are scheduled in autosys and in case of any failures, support team will be notified with INC.
+Since support team doesn't have knowledge on the batch job, they will have to identify the owner(team) of that batch job and follow up with the team to check the issue.
+Or if support team has to check the issue, they will have to go through multiple steps which requires knowledge on Autosys and Scripting language and access to the batch server.
+Supprot team will be performing below steps to check the issue:
+  1. Raise pre-approved production access for batch servers
+  2. Identify the script location using batch config in Autosys
+  3. Analyse the script to identify the log file location
+  4. check the correct log and search for any errors in log
+Once issue is identified, owner of the batch job is notified (Sometime there are difficulties in identifying the owner)
+
+This process takes lot of time and efforts and also it requires knowledge on technical languages, batch jobs and the corresponding owners.
+
