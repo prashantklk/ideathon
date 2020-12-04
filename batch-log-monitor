@@ -1,4 +1,4 @@
-This application will be desinged for supprot team to make it easy to monitor the logs and engage the concerned team in case of any issues.
+This application will be desinged to make troubleshooting batch issues easy and engage the concerned team in case of any issues.
 
 Current process:
 Batch jobs are scheduled in autosys and in case of any failures, support team will be notified with INC.
@@ -11,5 +11,5 @@ Supprot team will be performing below steps to check the issue:
   4. check the correct log and search for any errors in log
 Once issue is identified, owner of the batch job is notified (Sometime there are difficulties in identifying the owner)
 
-This process takes lot of time and efforts and also it requires knowledge on technical languages, batch jobs and the corresponding owners.
+This process takes lot of time and efforts to perform all the steps. 
 
